@@ -22,7 +22,7 @@ const Projects = () => {
             title: "Supermarket Website",
             desc: "Full-featured e-commerce platform with cart functionality, user auth, and payment integration.",
             tags: ["React", "Vite", "Tailwind", "Firebase"],
-            links: { demo: "#", code: "#" },
+            links: { demo: "https://siva30.lovable.app/", code: "#" },
             color: "from-emerald-500 to-teal-500"
         },
         {

@@ -1,4 +1,5 @@
 import React from 'react';
+import sivaImg from '../assets/siva.jpg';
 import { motion } from 'framer-motion';
 import { ArrowRight, FileText, Github, Linkedin, Instagram } from 'lucide-react';
 
@@ -89,8 +90,9 @@ const Hero = () => {
 
                         {/* Image Container */}
                         <div className="absolute inset-4 rounded-full overflow-hidden border-4 border-white dark:border-slate-800 shadow-2xl">
+
                             <img
-                                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
+                                src={sivaImg}
                                 alt="Sivajeevan Kiruparaj"
                                 className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
                             />
